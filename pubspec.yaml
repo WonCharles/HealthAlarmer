@@ -1,0 +1,22 @@
+name: health_alarmer
+description: A Flutter app that schedules multiple notifications at intervals
+
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 로컬 노티 패키지
+  flutter_local_notifications: ^15.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
